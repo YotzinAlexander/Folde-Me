@@ -1,0 +1,25 @@
+body{
+    background: #f6f2f6;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url('../../assets/astronaut-back.png'); */
+    background-image: url('../../assets/wallaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 48% 50%;
+    height: 800px;
+    width: auto;
+    padding: 0 10%;
+    transition: 0.1s linear;
+}
