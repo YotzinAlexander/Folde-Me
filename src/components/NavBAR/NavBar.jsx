@@ -15,7 +15,7 @@ export const NavBar = () => {
     
     const slides = [
         {
-          name: "Leguajes, Framework, Software",
+          name: "Leguajes, Framework, Software, SO",
           image: image1,
           items: [
             "HTML",
@@ -31,6 +31,7 @@ export const NavBar = () => {
             "MYSQL",
             "ROBO 3T",
             "POSTMAN",
+            "Windows","macOS","Linux"
 
 
 
