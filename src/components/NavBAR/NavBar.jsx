@@ -9,6 +9,8 @@ import './NavBar.css'
 
 import image1 from '../../assets/codeIcon.png'
 
+import image2 from '../../assets/codePC.png'
+
 export const NavBar = () => {
     
     const slides = [
@@ -38,7 +40,7 @@ export const NavBar = () => {
 
   return (
     <nav>
-    <img src='./src/assets/codePC.png' alt="" />
+    <img src={image2} alt="" />
     <div className='nav-items'>
       <div className='dropdown'>
         <button>Habilidades</button>
